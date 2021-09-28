@@ -6,3 +6,27 @@ html, body {
 canvas {
   display: block;
 }
+
+.mySlider {
+  -webkit-appearance: none;
+  width: 15%;
+  height: 25px;
+  background: #ffffff;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.mySlider:hover {
+  opacity: 1;
+}
+
+.mySlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #cecece;
+  cursor: pointer;
+}
