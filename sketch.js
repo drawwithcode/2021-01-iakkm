@@ -1,7 +1,3 @@
-function preload() {
-  // put preload code here
-}
-
 var detailX;
 
 function setup() {
